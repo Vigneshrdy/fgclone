@@ -2,6 +2,29 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 import BlogGrid from "@/components/blog-grid"
 import HeroCarousel from "@/components/hero-carousel"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Founders Gang - Where Entrepreneurs Belong",
+  description:
+    "Founders Gang is where entrepreneurs belong—a one-stop platform to connect, learn, share, and grow together in the startup journey.",
+  openGraph: {
+    title: "Founders Gang - Where Entrepreneurs Belong",
+    description:
+      "Founders Gang is where entrepreneurs belong—a one-stop platform to connect, learn, share, and grow together in the startup journey.",
+    url: "https://foundersgang.com",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Founders Gang - Where Entrepreneurs Belong",
+    description:
+      "Founders Gang is where entrepreneurs belong—a one-stop platform to connect, learn, share, and grow together in the startup journey.",
+  },
+  alternates: {
+    canonical: "https://foundersgang.com",
+  },
+}
 
 export default function Home() {
   return (
