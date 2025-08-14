@@ -39,13 +39,13 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://foundersgang.com",
-    title: "Founders Gang - Where Entrepreneurs Belong",
+    title: "Founders Gang",
     description:
       "Founders Gang is where entrepreneurs belong—a one-stop platform to connect, learn, share, and grow together in the startup journey.",
     siteName: "Founders Gang",
     images: [
       {
-        url: "/images/logos/founders-gang-light.jpg",
+        url: "/images/logos/founders-gang-dark.jpg",
         width: 1200,
         height: 630,
         alt: "Founders Gang - Where Entrepreneurs Belong",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     title: "Founders Gang - Where Entrepreneurs Belong",
     description:
       "Founders Gang is where entrepreneurs belong—a one-stop platform to connect, learn, share, and grow together in the startup journey.",
-    images: ["/images/logos/founders-gang-light.jpg"],
+    images: ["/images/logos/founders-gang-dark.jpg"],
     creator: "@foundersgang",
     site: "@foundersgang",
   },
